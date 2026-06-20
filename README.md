@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="assets/architecture_plates/AP-001.png"
+       alt="Project Keystone Executive Decision Architecture"
+       width="100%">
+</p>
+
 ---
 title: Project Keystone README
 document_type: Repository Overview
