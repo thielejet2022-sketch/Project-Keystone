@@ -18,6 +18,8 @@ last_modified: 2026-06-20
 # Project Keystone
 
 > *"Innovation creates possibility. Monetization creates durability."*
+> 
+> *"Keystone exists to improve real executive decisions. If a feature, framework, or document does not measurably improve a decision currently being made, it waits."*
 
 ## Overview
 
