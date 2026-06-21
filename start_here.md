@@ -2,7 +2,7 @@
 
 # Project Keystone
 
-**Building the Enterprise Monetization Operating System**
+**Building the Executive Decision Operating System**
 
 ---
 
@@ -10,13 +10,18 @@
 
 Welcome to **Project Keystone**.
 
-This repository contains a long-term body of executive work focused on Enterprise AI Monetization, using ServiceNow as the primary case study.
+This repository contains a long-term body of executive work focused on high-stakes
+decision-making. Enterprise AI Monetization, using ServiceNow as the flagship case study, is
+Keystone's deepest applied body of work — but it is a case study, not the project's boundary.
 
-Project Keystone is **not** an interview-preparation project.
+Project Keystone is **not** an interview-preparation project, and it is **not** scoped to any
+single job search.
 
-Interview preparation is one outcome of the work.
+Interview preparation and role positioning are outcomes of the work, applied as needed.
 
-The true objective is to develop a durable executive methodology for thinking about monetization, pricing, packaging, AI strategy, commercial operations, and enterprise value creation.
+The true objective is to develop a durable executive methodology for recognizing, reasoning
+through, and acting on the decisions that determine whether capability becomes lasting value
+— a methodology intended to outlast whatever circumstance prompted its creation.
 
 This repository is the authoritative source for that methodology.
 
@@ -42,12 +47,11 @@ Your role is to act as an Executive Strategy Partner.
 
 Project Keystone is built on several foundational beliefs.
 
-* AI is changing how enterprise software creates value.
-* Monetization is the bridge between innovation and sustainable growth.
-* Pricing is a strategic discipline, not merely a financial exercise.
-* The best commercial strategies balance adoption, value capture, customer trust, and long-term platform strength.
+* High-stakes executive decisions are improved by structure, not instinct alone.
+* Capability, adoption, and disciplined execution must reinforce one another for value to be durable — see PK-001's Founding Principle.
+* Executives are most prone to distortion not in gathering facts, but at the point of commitment, when career and personal interest are loudest.
 * Original frameworks are more valuable than summaries of existing research.
-* The goal is to create executive-quality thinking that remains useful even as technologies evolve.
+* The goal is to create executive-quality thinking that remains useful even as roles, employers, and technologies change.
 
 ---
 
@@ -57,7 +61,7 @@ Project Keystone produces four complementary deliverables.
 
 ## 1. Executive Playbook
 
-A narrative guide that teaches the principles of Enterprise AI Monetization.
+A narrative guide that teaches the principles of structured executive decision-making, illustrated through case studies including Enterprise AI Monetization.
 
 ## 2. Executive Framework Library
 
@@ -78,12 +82,14 @@ Condensed executive talking points, white papers, interview preparation, present
 The repository is organized into several major areas.
 
 * `/specs` – Project specifications and governing documents
+* `/architecture` – Keystone Architecture (KA) artifacts
+* `/decisions` – Architecture Decision Records (ADR)
+* `/standards` – Repository governance standards
 * `/frameworks` – Individual framework definitions
 * `/chapters` – Executive Playbook chapters
 * `/research` – Supporting research and source material
 * `/workbook` – Executive workbook specifications and supporting assets
 * `/assets` – Images, diagrams, and supporting visuals
-* `/standards` – Repository governance standards
 
 ---
 
@@ -92,17 +98,19 @@ The repository is organized into several major areas.
 Before contributing to Project Keystone, review these documents in order.
 
 1. `00_project_charter.md` — the constitutional baseline (PK-001)
-2. `std_000_repository_artifact_classification_standard.md` — the artifact taxonomy
-3. `std_001_metadata_standard.md` — required metadata schema
-4. `std_002_repository_change_management_standard.md` — versioning and status lifecycle
-5. `std_003_repository_contribution_standard.md` — how to contribute new artifacts
-6. `standards/github.md` — commit conventions
-7. `specs/spec_001_jd_to_narrative_gap_analysis.md` — the first applied specification
+2. `architecture/ka_001_keystone_architecture.md` — the structural architecture
+3. `decisions/adr_001_reconciling_run_keystone_with_decision_engine.md` — how the Decision Engine and Run Keystone relate
+4. `standards/std_000_repository_artifact_classification_standard.md` — the artifact taxonomy
+5. `standards/std_001_metadata_standard.md` — required metadata schema
+6. `standards/std_002_repository_change_management_standard.md` — versioning and status lifecycle
+7. `standards/std_003_repository_contribution_standard.md` — how to contribute new artifacts
+8. `standards/github.md` — commit conventions
+9. `standards/keystone.md` — the Run Keystone decision protocol
+10. `specs/spec_001_jd_to_narrative_gap_analysis.md` — the first applied specification, proven on a non-AI-monetization case (Revenue Operations)
 
-These documents define the project's mission, standards, and current state. As the project
-matures, a PROJECT_STATUS.md and CHANGELOG.md will be added here once that need has shown up
-more than once, per the Repository Growth Rule — they do not exist yet, and no other file in
-this repository should assume they do.
+These documents define the project's mission, standards, and current state. A PROJECT_STATUS.md
+and CHANGELOG.md will be added once that need has shown up more than once, per the Repository
+Growth Rule — they do not exist yet, and no other file in this repository should assume they do.
 
 ---
 
@@ -115,7 +123,7 @@ When extending Project Keystone:
 * Explain *why* before *how*.
 * Create original frameworks whenever appropriate.
 * Treat every recommendation as if it will be reviewed by an executive leadership team.
-* Prefer durable thinking over commentary tied to a single moment in time.
+* Prefer durable thinking over commentary tied to a single moment in time, employer, or job search.
 * When introducing a new framework, connect it to the existing framework library.
 * Maintain consistency of terminology throughout the project.
 
@@ -181,13 +189,13 @@ Framework quality is more important than framework quantity.
 
 # Current Direction
 
-Project Keystone is building toward a complete Executive Monetization Operating System.
+Project Keystone is building toward a complete Executive Decision Operating System, with
+Enterprise AI Monetization as its flagship applied case study.
 
 Current work includes:
 
-* Enterprise AI Monetization Playbook
-* ServiceNow Strategy
-* Competitive Landscape
+* Enterprise AI Monetization Playbook (ServiceNow case study)
+* Revenue Operations leadership positioning (Actionstep case study)
 * Framework Library
 * Executive Workbook
 * Interview Toolkit
@@ -212,7 +220,7 @@ Offer recommendations, but clearly distinguish opinion from fact.
 
 The objective is not merely to complete documents.
 
-The objective is to create enduring executive intellectual property.
+The objective is to create enduring executive intellectual property that outlasts any single role, employer, or job search.
 
 ---
 
