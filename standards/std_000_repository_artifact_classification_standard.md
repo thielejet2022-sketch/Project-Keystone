@@ -1,12 +1,12 @@
 ---
 id: STD-000
 title: Repository Artifact Classification Standard
-version: 0.1
+version: 0.2
 status: draft
 category: standard
 owner: project_keystone
 created: 2026-06-20
-last_updated: 2026-06-20
+last_updated: 2026-06-21
 depends_on: []
 provides:
   - artifact_classification
@@ -179,6 +179,34 @@ Case Studies validate architecture through real-world application.
 
 ---
 
+## FRAME | Frameworks
+
+Reusable strategic frameworks, mental models, and decision tools distilled from patterns
+observed across two or more Case Studies.
+
+Frameworks generalize a recurring pattern of executive decision-making into a portable
+tool — independent of any single case, brand, or employer — that can be applied forward to
+new, not-yet-encountered decisions.
+
+A Framework is distinct from a Capability: a Capability describes *what* Keystone enables an
+executive to accomplish in a domain; a Framework is a specific, reusable *tool* for reasoning
+through a recurring class of decision, regardless of domain.
+
+### Characteristics
+
+- Bottom-up: emerges from repeated patterns in Case Studies, not designed top-down
+- Requires at least two independent Case Studies exhibiting the same underlying pattern
+  before formalization, per the Repository Growth Rule
+- Portable across domains, brands, and employers
+- Evolves as new cases either confirm, extend, or complicate the pattern
+
+### Examples
+
+- Bounded Lever Realignment (a single, cost-bounded lever resolves a multi-stakeholder
+  tradeoff rather than trading competing interests against one another)
+
+---
+
 ## LAB | Laboratory Notes
 
 Working exploration.
@@ -211,11 +239,17 @@ SPEC
 PLAY
 ↓
 CASE
+↓
+FRAME
 ```
 
 Not every artifact follows every stage.
 
-The progression represents the normal evolution of architectural maturity.
+The progression represents the normal evolution of architectural maturity. FRAME is the one
+tier that matures in reverse relative to the others — it is synthesized upward out of two or
+more CASE artifacts that independently exhibit the same pattern, rather than being authored
+top-down and then applied. A FRAME may, once mature, go on to inform new CAP or SPEC
+artifacts — closing the loop from applied practice back into architecture.
 
 ---
 
@@ -231,11 +265,16 @@ When conflicts occur, the following order of precedence applies.
 6. Specifications
 7. Playbooks
 8. Case Studies
-9. Laboratory Notes
+9. Frameworks
+10. Laboratory Notes
 
 Higher-order artifacts govern lower-order artifacts.
 
 Lower-order artifacts may never contradict higher-order artifacts.
+
+A Framework's authority is bounded by the Case Studies it was derived from: it may not claim
+broader applicability than its source cases actually support, and must be revisited if a new
+case contradicts it.
 
 ---
 
@@ -259,3 +298,12 @@ It is an evolving Executive Decision Architecture.
 Artifact classification exists to preserve conceptual integrity as the repository grows.
 
 A clear architectural taxonomy enables Keystone to remain understandable, maintainable, and extensible for future contributors.
+
+---
+
+# Approval History
+
+| Version | Date       | Reviewer | Status   | Notes |
+| ------- | ---------- | -------- | -------- | ----- |
+| 0.1     | 2026-06-20 | JET      | Approved | Initial taxonomy: STD, ADR, KA, KK, CAP, SPEC, PLAY, CASE, LAB. |
+| 0.2     | 2026-06-21 | JET      | Approved | Added FRAME tier to formalize reusable frameworks distilled from two or more Case Studies, per explicit request when building the first such artifact (FRAME-001). Updated maturity progression and authority hierarchy accordingly. |
