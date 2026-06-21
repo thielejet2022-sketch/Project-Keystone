@@ -1,16 +1,22 @@
 ---
-
+id: PK-001
 title: Project Keystone System Specification
-specification_id: PK-002
-document_type: System Specification
-project: Project Keystone
-version: 0.1.0
-status: Review
-authority_level: Level 0 (Constitution)
+version: 0.1
+status: review
+category: charter
 owner: JET
-date_created: 2026-06-20
-last_modified: 2026-06-20
-
+created: 2026-06-20
+last_updated: 2026-06-21
+depends_on: []
+provides:
+  - founding_principle
+  - project_charter
+supersedes: []
+superseded_by: []
+tags:
+  - charter
+  - governance
+  - constitution
 ---
 
 # Project Keystone System Specification
@@ -94,4 +100,4 @@ Instead, it seeks to create enduring strategic intellectual property that remain
 | Version | Date       | Reviewer | Status   | Notes                                                                                                                           |
 | ------- | ---------- | -------- | -------- | ------------------------------------------------------------------------------------------------------------------------------- |
 | 0.1.0   | 2026-06-20 | JET      | Approved | Executive Summary, Founding Principle, Purpose, and Scope approved as the initial constitutional baseline for Project Keystone. |
-
+| 0.1     | 2026-06-21 | Claude   | Review   | Metadata realigned to STD-001 schema (id, category, depends_on, etc., replacing specification_id/document_type/authority_level). Renamed PK-002 to PK-001 as the project's first constitutional artifact — no PK-001 existed previously, which was an unresolved inconsistency. |
