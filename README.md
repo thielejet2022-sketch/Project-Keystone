@@ -12,7 +12,7 @@ version: 0.1.0
 status: Active
 owner: JET
 date_created: 2026-06-20
-last_modified: 2026-06-20
+last_modified: 2026-06-21
 ---
 
 # Project Keystone
@@ -101,12 +101,15 @@ The repository architecture emphasizes clarity, maintainability, version control
 
 To understand or continue Project Keystone, read these documents in order:
 
-1. `start_here.md`
-2. `00_project_charter.md`
-3. `02_project_status.md`
-4. `03_changelog.md`
+1. `start_here.md` — onboarding and current repository contents
+2. `00_project_charter.md` (PK-001) — the constitutional baseline
+3. `std_000_repository_artifact_classification_standard.md` — artifact taxonomy
+4. `std_001_metadata_standard.md` — metadata schema
+5. `std_002_repository_change_management_standard.md` — versioning and status lifecycle
+6. `std_003_repository_contribution_standard.md` — contribution workflow
 
-These specifications establish the project's mission, current state, and historical evolution.
+A `PROJECT_STATUS.md` and `CHANGELOG.md` will be added once that need has shown up more than
+once, per the Repository Growth Rule — they do not exist yet.
 
 ---
 
@@ -150,4 +153,4 @@ Project Keystone is an active, evolving body of executive research and original 
 
 The repository follows an iterative release model.
 
-Major milestones, architectural decisions, and significant changes are documented in `03_changelog.md`.
+Major milestones, architectural decisions, and significant changes will be documented in a future CHANGELOG.md once that file is warranted under the Repository Growth Rule.
