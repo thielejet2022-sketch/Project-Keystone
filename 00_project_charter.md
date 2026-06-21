@@ -1,12 +1,12 @@
 ---
 id: PK-001
 title: Project Keystone System Specification
-version: 0.1
-status: review
+version: 0.2
+status: active
 category: charter
 owner: JET
 created: 2026-06-20
-last_updated: 2026-06-21
+last_modified: 2026-06-21
 depends_on: []
 provides:
   - founding_principle
@@ -21,35 +21,39 @@ tags:
 
 # Project Keystone System Specification
 
-> *"Innovation creates possibility. Monetization creates durability."*
+> *"Capability creates possibility. Execution creates durability."*
 
 ---
 
 # Executive Summary
 
-Project Keystone exists to build a durable executive methodology for Enterprise AI Monetization.
+Project Keystone exists to build a durable executive methodology for high-stakes
+decision-making — how leaders recognize, reason through, and act on the decisions that
+determine whether capability becomes lasting value.
 
-It began as preparation for a leadership opportunity at ServiceNow. Very quickly, however, it became apparent that the underlying challenge was much larger than preparing for a single interview.
+It began as preparation for a leadership opportunity at ServiceNow focused on Enterprise AI
+Monetization. That work remains Keystone's flagship case study and its deepest body of
+applied thinking. But the underlying methodology — an Executive Decision Engine, a governed
+Knowledge Architecture, and a disciplined contribution process — was never actually specific
+to AI monetization. It has since been applied successfully to other executive decisions,
+including revenue operations leadership positioning, and is built to generalize further.
 
-Artificial Intelligence is fundamentally changing how enterprise software creates value.
+Project Keystone is therefore scoped to Executive Decision-Making broadly. AI Monetization,
+with ServiceNow as primary case study, is its first and most developed application — not its
+boundary.
 
-Traditional pricing models, packaging strategies, commercial organizations, and executive decision-making processes are all evolving in response.
+The project combines strategic research, original frameworks, structured decision protocols,
+executive communication, and practical application into a single, coherent knowledge system.
 
-While individual vendors offer products and opinions, few provide a cohesive operating model that helps executives understand how these changes fit together.
+The intended audience includes executives responsible for Product, Pricing, Finance, Revenue
+Operations, Commercial Strategy, Deal Desk, Enterprise Transformation, and any executive
+function where high-stakes decisions are made under incomplete information and real personal
+stakes.
 
-Project Keystone is intended to fill that gap.
-
-Rather than documenting a single company's strategy, Keystone develops a first-principles framework for understanding how innovation becomes adoption, how adoption becomes monetization, and how monetization becomes enduring enterprise value.
-
-The project combines strategic research, original frameworks, commercial analysis, pricing theory, workflow economics, executive communication, and practical application into a single, coherent knowledge system.
-
-The intended audience includes executives responsible for Product, Pricing, Finance, Revenue Operations, Commercial Strategy, Deal Desk, and Enterprise Transformation.
-
-Although ServiceNow serves as the primary case study, every framework is designed to remain valuable even as vendors, technologies, and AI models evolve.
-
-Project Keystone therefore represents more than a collection of documents.
-
-It is an operating system for strategic thinking.
+Project Keystone is intended to outlast the circumstances that started it. It is not a job
+search artifact. It is a long-term body of intellectual property, designed to remain valuable
+to its owner — and demonstrably valuable to others — regardless of which role, company, or
+season of career produced the occasion to build it further.
 
 ---
 
@@ -57,41 +61,58 @@ It is an operating system for strategic thinking.
 
 Project Keystone is founded on one central belief:
 
-**Enterprise value is created when innovation, customer adoption, and monetization reinforce one another.**
+**Durable value is created when capability, adoption, and disciplined execution reinforce one
+another.**
 
-Innovation without adoption creates curiosity.
+Capability without adoption creates curiosity.
 
-Adoption without monetization creates cost.
+Adoption without disciplined execution creates cost.
 
-Monetization without customer value creates churn.
+Execution without genuine capability creates fragility.
 
-Only when all three reinforce one another does sustainable enterprise growth emerge.
+Only when all three reinforce one another does sustainable value emerge — for an enterprise,
+or for an individual executive's own body of work.
 
-Every framework, recommendation, chapter, and model contained within Project Keystone should ultimately support this principle.
+Every framework, recommendation, chapter, model, and decision processed through Run Keystone
+should ultimately support this principle.
 
 ---
 
 # Purpose
 
-Project Keystone exists to transform complexity into executive clarity.
+Project Keystone exists to transform complexity into executive clarity, across whatever
+domain the decision in front of its owner actually requires.
 
-Its purpose is not merely to explain pricing.
+Its purpose is not merely to explain pricing, or monetization, or any single discipline.
 
-Its purpose is to help leaders make better strategic decisions by providing durable frameworks that connect technology, commercial strategy, customer behavior, and enterprise economics.
+Its purpose is to help leaders make better strategic decisions by providing durable
+frameworks, and a structured Decision Engine, that connect technology, commercial reality,
+human behavior, and personal judgment under pressure.
 
-The project measures success not by the number of pages written, but by the quality of decisions it enables.
+The project measures success not by the number of pages written, but by the quality of
+decisions it enables — and by its own survival and growth independent of any single
+professional circumstance that prompted its creation.
 
 ---
 
 # Scope
 
-Project Keystone develops knowledge rather than products.
+Project Keystone develops knowledge and decision infrastructure rather than products tied to
+one employer or one domain.
 
-Its outputs include executive frameworks, strategic playbooks, decision models, analytical workbooks, research, and thought leadership.
+Its outputs include executive frameworks, strategic playbooks, decision models, analytical
+workbooks, research, and thought leadership — applicable across case studies.
 
-The project explicitly avoids becoming vendor marketing, academic theory, or transient commentary tied to a single technology cycle.
+Enterprise AI Monetization, using ServiceNow as primary case study, is Keystone's flagship
+application and remains its deepest body of work. Additional case studies, including
+Revenue Operations leadership positioning, are explicitly within scope and expected to grow
+over time.
 
-Instead, it seeks to create enduring strategic intellectual property that remains useful across industries and over time.
+The project explicitly avoids becoming vendor marketing, academic theory, or transient
+commentary tied to a single technology cycle, employer, or job search.
+
+Instead, it seeks to create enduring strategic intellectual property — owned by its
+architect, JET — that remains useful across industries, roles, and time.
 
 ---
 
@@ -100,4 +121,5 @@ Instead, it seeks to create enduring strategic intellectual property that remain
 | Version | Date       | Reviewer | Status   | Notes                                                                                                                           |
 | ------- | ---------- | -------- | -------- | ------------------------------------------------------------------------------------------------------------------------------- |
 | 0.1.0   | 2026-06-20 | JET      | Approved | Executive Summary, Founding Principle, Purpose, and Scope approved as the initial constitutional baseline for Project Keystone. |
-| 0.1     | 2026-06-21 | Claude   | Review   | Metadata realigned to STD-001 schema (id, category, depends_on, etc., replacing specification_id/document_type/authority_level). Renamed PK-002 to PK-001 as the project's first constitutional artifact — no PK-001 existed previously, which was an unresolved inconsistency. |
+| 0.1     | 2026-06-21 | Claude   | Review   | Metadata realigned to STD-001 schema. Renamed PK-002 to PK-001. |
+| 0.2     | 2026-06-21 | JET      | Approved | Widened founding scope from Enterprise AI Monetization to Executive Decision-Making broadly. Founding Principle generalized from innovation/adoption/monetization to capability/adoption/execution. Explicitly establishes Keystone as a durable IP asset intended to outlast any single job search. |
