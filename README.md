@@ -8,7 +8,7 @@
 title: Project Keystone README
 document_type: Repository Overview
 project: Project Keystone
-version: 0.1.0
+version: 0.2
 status: Active
 owner: JET
 date_created: 2026-06-20
@@ -17,29 +17,41 @@ last_modified: 2026-06-21
 
 # Project Keystone
 
-> *"Innovation creates possibility. Monetization creates durability."*
+> *"Capability creates possibility. Execution creates durability."*
 > 
 > *"Keystone exists to improve real executive decisions. If a feature, framework, or document does not measurably improve a decision currently being made, it waits."*
 
 ## Overview
 
-**Project Keystone** is a long-term executive knowledge project focused on Enterprise AI Monetization.
+**Project Keystone** is a long-term executive knowledge project focused on high-stakes
+decision-making.
 
-Its mission is to develop a practical, executive-level methodology for understanding and designing monetization strategies for modern enterprise software platforms, using ServiceNow as the primary case study.
+Its mission is to develop a practical, executive-level methodology for recognizing,
+reasoning through, and acting on the decisions that determine whether capability becomes
+lasting value — applicable across roles, employers, and industries.
 
-While the project originated as preparation for a Director of Monetization Strategy opportunity, it has evolved into a broader body of work focused on commercial strategy, pricing, packaging, AI economics, workflow monetization, and executive decision-making.
+The project originated as preparation for a Director of Monetization Strategy opportunity at
+ServiceNow, and Enterprise AI Monetization remains Keystone's flagship, most deeply developed
+case study. But the methodology itself — the Executive Decision Engine, the governed
+Knowledge Architecture, and the contribution discipline — was never actually specific to AI
+monetization, and has since been proven on other case studies, including Revenue Operations
+leadership positioning.
 
-Project Keystone is intended to become a living body of intellectual property rather than a static collection of notes.
+Project Keystone is intended to become a living body of intellectual property that outlasts
+any single job search, role, or employer — not a static collection of notes tied to one
+opportunity.
 
 ---
 
 ## Mission
 
-Build the definitive executive methodology for Enterprise AI Monetization.
+Build the definitive executive methodology for high-stakes decision-making.
 
 The objective is not simply to prepare for interviews.
 
-The objective is to create durable strategic thinking that helps executives convert innovation into sustainable enterprise value.
+The objective is to create durable strategic thinking that helps executives convert
+capability into sustainable, lasting value — and that remains valuable to its owner
+regardless of which role or employer prompted a given chapter of the work.
 
 ---
 
@@ -47,11 +59,11 @@ The objective is to create durable strategic thinking that helps executives conv
 
 Project Keystone is designed to:
 
-- Develop a first-principles understanding of Enterprise AI Monetization
-- Build reusable executive frameworks for pricing and commercial strategy
-- Create an Executive Playbook that teaches AI monetization from foundational concepts through executive strategy
+- Develop a first-principles understanding of high-stakes executive decision-making
+- Build reusable executive frameworks for pricing, commercial strategy, and decision quality generally
+- Create an Executive Playbook that teaches structured decision-making from foundational concepts through executive strategy, illustrated through case studies including Enterprise AI Monetization
 - Produce practical executive decision-support tools, including scorecards, matrices, competitive analyses, and strategic planning models
-- Capture original strategic thinking that remains valuable beyond any single company, technology, or market cycle
+- Capture original strategic thinking that remains valuable beyond any single company, role, technology, or market cycle
 
 ---
 
@@ -61,7 +73,7 @@ Project Keystone consists of four interconnected products.
 
 ### Executive Playbook
 
-A structured guide that teaches Enterprise AI Monetization from foundational principles through executive strategy.
+A structured guide that teaches executive decision-making from foundational principles through executive strategy, with Enterprise AI Monetization as the flagship worked example.
 
 ### Executive Framework Library
 
@@ -81,11 +93,11 @@ Executive talking points, presentation materials, white papers, interview prepar
 
 Project Keystone is built upon several foundational beliefs.
 
-- Enterprise AI changes how software creates value.
-- Monetization is the bridge between innovation and sustainable growth.
-- Great pricing balances customer value, adoption, profitability, and long-term platform strength.
+- High-stakes executive decisions are improved by structure, not instinct alone.
+- Capability, adoption, and disciplined execution must reinforce one another for value to be durable.
+- Executives are most prone to distortion not in gathering facts, but at the point of commitment, when career and personal interest are loudest.
 - Original frameworks create greater long-term value than summaries of existing research.
-- Durable strategic thinking outlasts individual technologies, vendors, and market cycles.
+- Durable strategic thinking outlasts individual technologies, vendors, employers, and job searches.
 
 ---
 
@@ -103,10 +115,12 @@ To understand or continue Project Keystone, read these documents in order:
 
 1. `start_here.md` — onboarding and current repository contents
 2. `00_project_charter.md` (PK-001) — the constitutional baseline
-3. `std_000_repository_artifact_classification_standard.md` — artifact taxonomy
-4. `std_001_metadata_standard.md` — metadata schema
-5. `std_002_repository_change_management_standard.md` — versioning and status lifecycle
-6. `std_003_repository_contribution_standard.md` — contribution workflow
+3. `architecture/ka_001_keystone_architecture.md` — the structural architecture
+4. `decisions/adr_001_reconciling_run_keystone_with_decision_engine.md` — the Decision Engine / Run Keystone mapping
+5. `standards/std_000_repository_artifact_classification_standard.md` — artifact taxonomy
+6. `standards/std_001_metadata_standard.md` — metadata schema
+7. `standards/std_002_repository_change_management_standard.md` — versioning and status lifecycle
+8. `standards/std_003_repository_contribution_standard.md` — contribution workflow
 
 A `PROJECT_STATUS.md` and `CHANGELOG.md` will be added once that need has shown up more than
 once, per the Repository Growth Rule — they do not exist yet.
@@ -153,4 +167,4 @@ Project Keystone is an active, evolving body of executive research and original 
 
 The repository follows an iterative release model.
 
-Major milestones, architectural decisions, and significant changes will be documented in a future CHANGELOG.md once that file is warranted under the Repository Growth Rule.
+Major milestones, architectural decisions, and significant changes will be documented in a future CHANGELOG.md once that file is warranted under the Repository Growth Rule. In the meantime, see `decisions/` for Architecture Decision Records documenting significant changes.
