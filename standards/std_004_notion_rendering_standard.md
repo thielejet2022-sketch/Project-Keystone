@@ -1,8 +1,8 @@
 ---
 id: STD-004
 title: Notion Rendering Standard
-version: 0.1
-status: draft
+version: 0.2
+status: active
 category: standard
 owner: project_keystone
 created: 2026-06-21
@@ -41,6 +41,17 @@ Sync is one-directional: GitHub → Notion.
 - Notion is never edited directly as a record of new thinking. If new thinking happens in
   Notion, it is exploratory only — equivalent to a LAB note — until promoted into GitHub via
   the normal STD-003 contribution process. Only then does the Notion view get regenerated.
+
+## Sync Cadence
+
+The Keystone Repository Index (or any future Notion rendering of repository artifacts) is
+updated after every GitHub commit that creates, moves, renames, or changes the status of a
+tracked artifact. This is not on-request — it happens by default as part of completing the
+commit, so that Notion remains a current model of the repository rather than a snapshot that
+drifts out of date.
+
+Commits that only fix typos or formatting within an artifact's body, without changing its
+id, tier, status, or version, do not require a Notion update.
 
 ## What Belongs in Notion
 
