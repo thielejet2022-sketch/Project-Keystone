@@ -83,6 +83,7 @@ The repository is organized into several major areas.
 * `/research` – Supporting research and source material
 * `/workbook` – Executive workbook specifications and supporting assets
 * `/assets` – Images, diagrams, and supporting visuals
+* `/standards` – Repository governance standards
 
 ---
 
@@ -90,13 +91,18 @@ The repository is organized into several major areas.
 
 Before contributing to Project Keystone, review these documents in order.
 
-1. `00_Project_Charter.md`
-2. `PROJECT_STATUS.md`
-3. `01_Design_Principles.md`
-4. `03_Framework_Library.md`
-5. `CHANGELOG.md`
+1. `00_project_charter.md` — the constitutional baseline (PK-001)
+2. `std_000_repository_artifact_classification_standard.md` — the artifact taxonomy
+3. `std_001_metadata_standard.md` — required metadata schema
+4. `std_002_repository_change_management_standard.md` — versioning and status lifecycle
+5. `std_003_repository_contribution_standard.md` — how to contribute new artifacts
+6. `standards/github.md` — commit conventions
+7. `specs/spec_001_jd_to_narrative_gap_analysis.md` — the first applied specification
 
-These documents define the project's mission, standards, current state, and evolution.
+These documents define the project's mission, standards, and current state. As the project
+matures, a PROJECT_STATUS.md and CHANGELOG.md will be added here once that need has shown up
+more than once, per the Repository Growth Rule — they do not exist yet, and no other file in
+this repository should assume they do.
 
 ---
 
@@ -212,10 +218,8 @@ The objective is to create enduring executive intellectual property.
 
 # Next Step
 
-Read the core documents.
+Read the core documents listed above.
 
 Reconstruct the current state of the project.
-
-Review `PROJECT_STATUS.md` to determine the active milestone.
 
 Then continue building Project Keystone from that point without restarting or redefining the project.
