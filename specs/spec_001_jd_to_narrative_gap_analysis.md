@@ -1,15 +1,16 @@
 ---
 id: SPEC-001
 title: JD-to-Narrative Gap Analysis
-version: 0.1
+version: 0.2
 status: draft
 category: specification
 owner: project_keystone
 created: 2026-06-21
-last_updated: 2026-06-21
+last_updated: 2026-06-22
 depends_on:
   - STD-000
   - STD-001
+  - PLAY-001
 provides:
   - jd_to_narrative_gap_analysis
 supersedes: []
@@ -58,6 +59,12 @@ assumptions (inferred company pain points, unstated culture signals). Cross-refe
 the candidate's actual background to surface the real gap — title, scope, domain, or
 technical depth — rather than assuming the gap before checking.
 
+**Method:** Execute PLAY-001 (Company Research Protocol for Interview Prep) in full — all four
+passes (ownership/capital structure, M&A-to-proof-point mapping, hiring manager dossier, JD
+line-mining) — rather than relying on whatever a pre-existing Company Intelligence Brief
+happens to cover. A CIB built before a specific JD existed will typically cover Passes 1–3 but
+not Pass 4; Pass 4 must still be run explicitly even when a CIB exists.
+
 ### Step 4 — Build Mental Models
 Identify which existing Keystone frameworks apply. If none exist yet for the gap identified,
 that absence is itself useful evidence for what to build next — do not force-fit an unrelated
@@ -78,7 +85,10 @@ question — not abstract advice.
 
 ### Step 8 — Promote Learning
 If the pattern proves reusable, promote it into the repository following STD-003. This
-specification is itself a Step 8 output from its first real application.
+specification is itself a Step 8 output from its first real application. PLAY-001 is, in turn,
+a Step 8 output from this specification's own first live run — its Step 3 execution against a
+real JD (Actionstep) surfaced that Pass 4 hadn't been run as a deliberate step, even with a
+CIB in hand.
 
 ## Constraints
 
@@ -88,3 +98,12 @@ specification is itself a Step 8 output from its first real application.
 - Output should distinguish clearly between recruiter-screen-level framing and
   technical-round-level framing; collapsing the two produces answers calibrated to the wrong
   audience.
+- Step 3 must not be considered complete until all four PLAY-001 passes have been explicitly
+  run, even when a pre-existing CIB appears to cover the company.
+
+## Approval History
+
+| Version | Date       | Reviewer | Status | Notes |
+| ------- | ---------- | -------- | ------ | ----- |
+| 0.1     | 2026-06-21 | JET      | Approved | Initial specification, drafted prior to first live run. |
+| 0.2     | 2026-06-22 | JET      | Approved | Added PLAY-001 dependency and explicit method for Step 3, after first live run (Actionstep) surfaced that JD line-mining (Pass 4) wasn't executed as a deliberate step despite an existing CIB. |
